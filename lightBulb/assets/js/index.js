@@ -30,7 +30,7 @@ function updateLightBulbState() {
 
 function setLightBulbState(imageSrc) {
   if (!isLampBroken()) {
-    lightBulb.src = `img/${imageSrc}.jpg`;
+    lightBulb.src = `assets/images/${imageSrc}.jpg`;
     updateLightBulbState();
   }
 }
