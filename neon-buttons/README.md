@@ -10,4 +10,4 @@
 
 </div>
 
-- Live Site URL: [https://jenacarry.github.io/projects/neonButtons/](https://jenacarry.github.io/projects/neonButtons/)
+- Live Site URL: [https://jenacarry.github.io/projects/neon-buttons/](https://jenacarry.github.io/projects/neon-buttons/)

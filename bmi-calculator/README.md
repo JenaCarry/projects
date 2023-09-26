@@ -10,4 +10,4 @@
 
 </div>
 
-- Live Site URL: [https://jenacarry.github.io/projects/bmiCalculator/](https://jenacarry.github.io/projects/bmiCalculator/)
+- Live Site URL: [https://jenacarry.github.io/projects/bmi-calculator/](https://jenacarry.github.io/projects/bmi-calculator/)

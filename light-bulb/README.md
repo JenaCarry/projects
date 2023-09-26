@@ -10,4 +10,4 @@
 
 </div>
 
-- Live Site URL: [https://jenacarry.github.io/projects/lightBulb/](https://jenacarry.github.io/projects/lightBulb/)
+- Live Site URL: [https://jenacarry.github.io/projects/light-bulb/](https://jenacarry.github.io/projects/light-bulb/)

@@ -10,4 +10,4 @@
 
 </div>
 
-- Live Site URL: [https://jenacarry.github.io/projects/trafficLight/](https://jenacarry.github.io/projects/trafficLight/)
+- Live Site URL: [https://jenacarry.github.io/projects/traffic-light/](https://jenacarry.github.io/projects/traffic-light/)

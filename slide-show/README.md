@@ -10,4 +10,4 @@
 
 </div>
 
-- Live Site URL: [https://jenacarry.github.io/projects/slideShow/](https://jenacarry.github.io/projects/slideShow/)
+- Live Site URL: [https://jenacarry.github.io/projects/slide-show/](https://jenacarry.github.io/projects/slide-show/)

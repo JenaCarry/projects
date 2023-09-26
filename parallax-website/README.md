@@ -10,4 +10,4 @@
 
 </div>
 
-- Live Site URL: [https://jenacarry.github.io/projects/parallaxWebsite/](https://jenacarry.github.io/projects/parallaxWebsite/)
+- Live Site URL: [https://jenacarry.github.io/projects/parallax-website/](https://jenacarry.github.io/projects/parallax-website/)

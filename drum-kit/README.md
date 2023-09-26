@@ -10,4 +10,4 @@
 
 </div>
 
-- Live Site URL: [https://jenacarry.github.io/projects/drumKit/](https://jenacarry.github.io/projects/drumKit/)
+- Live Site URL: [https://jenacarry.github.io/projects/drum-kit/](https://jenacarry.github.io/projects/drum-kit/)
