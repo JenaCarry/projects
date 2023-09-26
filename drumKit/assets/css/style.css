@@ -17,7 +17,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: "Calibri", sans-serif;
-  background: url("img/back.jpg") no-repeat center / cover;
+  background: url("../images/back.jpg") no-repeat center / cover;
   color: var(--text-color);
   padding: 0.25rem 1rem;
 }

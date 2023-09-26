@@ -24,7 +24,7 @@ function createSounds() {
 }
 
 function playSound(letter) {
-  const sound = new Audio(`sounds/${sounds[letter]}`);
+  const sound = new Audio(`assets/sounds/${sounds[letter]}`);
   sound.play();
 }
 
