@@ -1,0 +1,90 @@
+:root {
+  --primary-color: #333;
+  --shadow: 0 0 0.1875rem rgba(0, 0, 0, 0.1);
+  --rounded: 0.5rem;
+  --transitionAll: all 0.2s ease-in-out;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Calibri", sans-serif;
+  color: var(--primary-color);
+  padding: 0.25rem 1rem;
+}
+
+main {
+  width: 100%;
+  max-width: 25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.625rem 1rem;
+  border-bottom: 0.125rem solid var(--primary-color);
+}
+
+.image-container {
+  margin: 1rem 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.625rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+  outline: none;
+  border: 0.0625rem solid #333;
+  cursor: pointer;
+  transition: var(--transitionAll);
+}
+
+button:hover,
+button.active {
+  color: #fff;
+}
+
+#red:hover,
+#red.active {
+  background-color: #ef4444;
+}
+
+#yellow:hover,
+#yellow.active {
+  background-color: #eab308;
+}
+
+#green:hover,
+#green.active {
+  background-color: #22c55e;
+}
+
+#auto:hover,
+#auto.active {
+  background-color: #3b82f6;
+}

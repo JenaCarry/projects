@@ -1,0 +1,90 @@
+:root {
+  --title-color: #ffcc00;
+  --text-color: #fff;
+  --shadow: 0 0 0.125rem rgba(0, 0, 0, 0.1);
+  --rounded: 0.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Calibri", sans-serif;
+  background: url("img/back.jpg") no-repeat center / cover;
+  color: var(--text-color);
+  padding: 0.25rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--title-color);
+  text-transform: uppercase;
+  text-shadow: 0.0625rem 0.0625rem 0.5rem #000;
+  margin: 2.5rem 0;
+}
+
+.sounds-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.sound {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: var(--rounded);
+  border: 0.125rem solid #fff;
+  box-shadow: var(--shadow);
+  transition: all 0.2s;
+  user-select: none;
+  cursor: pointer;
+}
+
+.sound.active {
+  transform: scale(1.2);
+  border: 0.125rem solid var(--title-color);
+  box-shadow: 0 0 1rem 0.25rem var(--title-color);
+}
+
+@media screen and (min-width: 425px) {
+  .sounds-container {
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .sound {
+    font-size: 2rem;
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
+    margin: 3rem 0;
+  }
+
+  .sound {
+    font-size: 2.5rem;
+  }
+}
