@@ -19,9 +19,9 @@ const changeColorAuto = () => {
 };
 
 const turnOn = {
-  red: () => (trafficLight.src = "img/red.png"),
-  yellow: () => (trafficLight.src = "img/yellow.png"),
-  green: () => (trafficLight.src = "img/green.png"),
+  red: () => (trafficLight.src = "assets/images/red.png"),
+  yellow: () => (trafficLight.src = "assets/images/yellow.png"),
+  green: () => (trafficLight.src = "assets/images/green.png"),
   auto: () => (timeout = setInterval(changeColorAuto, 1000)),
 };
 
