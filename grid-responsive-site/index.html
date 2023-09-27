@@ -1,87 +1,138 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Grid Responsive Site" />
+    <meta name="description" content="Grid Responsive Site" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Grid Responsive Site, Grid, Responsive, Site"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+    <link rel="author" href="https://github.com/JenaCarry" />
+    <meta name="author" content="JenaCarry" />
     <title>Grid Responsive Site</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header id="main-header" class="grid">
-        <div class="bg-image"></div>
-        <div class="content-wrap">
-            <h1>Welcome to Acme Web Solutions</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.</p>
-            <a href="#section-b" class="btn">Read More</a>
-        </div>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Acme Web Solutions</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum
+        error earum soluta voluptatum nisi laboriosam eos saepe asperiores
+        dolorum.
+      </p>
+      <a href="#">Read More</a>
     </header>
-
     <main>
-        <section id="section-a" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">Web & Application Development</h2>
-                <div class="content-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi animi totam, accusantium, ex eius quia, natus quo?</p>
-                </div>
-            </di>
-        </section>
-
-        <section id="section-b" class="grid">
-            <ul>
-                <li>
-                    <div class="card">
-                        <img src="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg" alt="Um homem mexendo no notebook">
-                    </div>
-                    <div class="card-content">
-                        <h3 class="card-title">Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt="uma mulher mexendo no celular">
-                        <div class="card-content">
-                            <h3 class="card-title">Mobile Applications</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <img src="https://static.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="Tablet e notebook com muitos gráficos">
-                        <div class="card-content">
-                            <h3 class="card-title">Tech Marketing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section id="section-c" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">We handle all of your digital needs</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat cupiditate, dolore eius! Minus, explicabo.</p>
-            </div>
-        </section>
-
-        <section id="section-d" class="grid">
-            <div class="box">
-                <h2 class="content-title">Contact Us</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.</p>
-                <p>contact@acmewebsolutions.test</p>
-            </div>
-            <div class="box">
-                <h2 class="content-title">About Our Company</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?</p>
-            </div>
-        </section>
+      <section class="firstSection">
+        <h2>Web & Application Development</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint
+            eligendi possimus? Unde officiis magnam laborum ipsa distinctio
+            odio, vero
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint
+            eligendi possimus? Unde officiis magnam laborum ipsa distinctio
+            odio, vero
+          </p>
+        </div>
+      </section>
+      <section class="secondSection">
+        <article>
+          <div>
+            <img
+              src="assets/images/web-development.jpeg"
+              alt="Web Development"
+            />
+          </div>
+          <div class="textContent">
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div>
+            <img
+              src="assets/images/mobile-applications.jpeg"
+              alt="Mobile Applications"
+            />
+          </div>
+          <div class="textContent">
+            <h2>Mobile Applications</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div>
+            <img src="assets/images/tech-marketing.jpeg" alt="Tech Marketing" />
+          </div>
+          <div class="textContent">
+            <h2>Tech Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="thirdSection">
+        <h2>We handle all of your digital needs</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam
+          rerum vel earum error fugiat cupiditate, dolore eius! Minus,
+          explicabo.
+        </p>
+      </section>
+      <section class="fourthSection">
+        <div class="contactUs">
+          <h2>Contact Us</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
+            suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
+          </p>
+          <a class="scaleCenter" href="#">contact@acmewebsolutions.test</a>
+        </div>
+        <div class="aboutOurCompany">
+          <h2>About Our Company</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            earum porro deserunt, deleniti, quae facere repudiandae, officiis
+            est exercitationem nobis iusto doloremque! Soluta excepturi in aut
+            suscipit amet temporibus quo?
+          </p>
+        </div>
+      </section>
     </main>
-
-    <footer id="main-footer" class="grid">
-        <div>Acme Web Solutions</div>
-        <div>Project By <a href="http://traversymedia.com/" target="_blank" rel="external">Traversy Media</a></div>
+    <footer>
+      <ul>
+        <li>Acme Web Solutions</li>
+        <li>
+          Project By
+          <a
+            class="scaleCenter"
+            href="https://www.traversymedia.com/"
+            target="_blank"
+            >Traversy Media</a
+          >
+        </li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
