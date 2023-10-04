@@ -2,8 +2,6 @@ const todoList = document.querySelector(".todo-list");
 const form = document.querySelector("form");
 const createTodo = document.querySelector("#create-todo");
 
-// const todos = [];
-
 const getAllTodos = () => JSON.parse(localStorage.getItem("todos")) ?? [];
 
 const setAllTodos = (todos) =>
@@ -37,11 +35,11 @@ const createTodoItem = (todo, index) => {
   const liElement = document.createElement("li");
   liElement.classList = `todo-item ${todo.isCompleted ? "completed" : ""}`;
   liElement.innerHTML = `
-    <div class="todo-check">
-      <ion-icon name="checkmark-outline"></ion-icon>
-    </div>
-    <h2>${todo.text}</h2>
-    <button class="xmark">X</button>`;
+  <div class="todo-check">
+    <ion-icon name="checkmark-outline"></ion-icon>
+  </div>
+  <h2>${todo.text}</h2>
+  <button class="xmark">X</button>`;
   todoList.appendChild(liElement);
   liElement.addEventListener("click", (e) => {
     if (e.target.classList.contains("xmark")) {
