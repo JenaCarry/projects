@@ -19,7 +19,7 @@ const updateDisplay = () => {
 
 const completedTodo = (index) => {
   const todos = getAllTodos();
-  todos[index].isCompleted = todos[index].isCompleted === false ? true : false;
+  todos[index].isCompleted = !todos[index].isCompleted;
   setAllTodos(todos);
   updateDisplay();
 };
