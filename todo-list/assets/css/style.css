@@ -67,13 +67,9 @@ main {
   transition: all 0.2s;
 }
 
-.todo-item:hover:not(.dragging) {
+.todo-item:hover {
   color: var(--body-color);
   background-color: var(--text-color);
-}
-
-.todo-item.dragging :where(.todo-check, h2, button) {
-  opacity: 0;
 }
 
 .todo-check {
